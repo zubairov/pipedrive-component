@@ -6,8 +6,7 @@
             "apitoken": {
                 "label": "your API Token",
                 "required": true,
-                "viewClass": "TextFieldView",
-                "autofocus": true
+                "viewClass": "TextFieldView"
             }
         }
     },
