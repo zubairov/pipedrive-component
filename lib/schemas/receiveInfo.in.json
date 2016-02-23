@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "title": "Name"
+        },
+        "email":{
+          "type":"string",
+          "required": true,
+          "title":"email"
+        },
+        "organisation":{
+          "type": "string",
+          "required": true,
+          "title": "Company"
+        },
+        "message":{
+          "type":"string",
+          "required":false,
+          "title": "message"
+        }
+    }
+}
