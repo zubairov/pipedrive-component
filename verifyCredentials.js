@@ -1,4 +1,5 @@
 // here you can place your variables
+var = pipedrive // TODO:
 
 // This function will be called by the platform to verify credentials
 module.exports = function verifyCredentials(credentials, cb) {
@@ -6,6 +7,7 @@ module.exports = function verifyCredentials(credentials, cb) {
   console.log('Credentials passed for verification %j', credentials)
   if (true) {
     // Conditions go here
+
 
     return cb(null, {verified: true});
     // Verified

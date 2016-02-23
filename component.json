@@ -1,6 +1,6 @@
 {
     "title": "pipedrive",
-    "description": "pipedrive component for elaastic.io platform",
+    "description": "pipedrive component for elastic.io platform",
     "credentials": {
         "fields": {
             "apitoken": {
@@ -11,12 +11,12 @@
         }
     },
     "actions": {
-        "updateHello": {
-            "main": "./lib/actions/updateHello.js",
-            "title": "Update Hello",
+        "createlead": {
+            "main": "./lib/actions/receiveInfo.js",
+            "title": "Create Lead",
             "metadata": {
-                "in": "./lib/schemas/updateHello.in.json",
-                "out": "./lib/schemas/updateHello.out.json"
+                "in": "./lib/schemas/receiveInfo.in.json",
+                "out": "./lib/schemas/sendInfo.out.json"
             }
         }
     }
